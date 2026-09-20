@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "edutrack-web",
+      "runtimeExecutable": "py",
+      "runtimeArgs": ["-m", "http.server", "8777", "-d", "build/web"],
+      "port": 8777
+    }
+  ]
+}
